@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #faf9fa !important;
+  font-size: 1.2rem !important;
+  overflow-x: hidden;
+}
+
+footer {
+  font-weight: bold !important;
+  color: #faf9fa !important;
+}
+
+a {
+  color: #faf9fa !important;
+}
+
+a:hover {
+  color: #31e300 !important;
+}
+
+.green {
+  color: #31e300;
+}
+
+.btn1 {
+  border: 2px solid #31e300 !important;
+  color: #faf9fa !important;
+  font-weight: bold !important;
+}
+
+.btn1:hover {
+  background-color: #31e300 !important;
+  color: #000000 !important;
+}
+
+.navbar {
+  background-color: #000101 !important;
+}
+
+footer {
+  background-color: #000101 !important;
+  padding: 0 120px;
+  margin: 0 !important;
+}
+
+.footer {
+  padding: 0 0 !important;
+}
+
+.nav-menu {
+  flex-grow: 0 !important;
+  font-weight: bold;
+}
+
+.nav-menu button {
+  margin-left: 30px !important;
+}
+
+.head .brand {
+  font-weight: bold;
+  font-size: 1.5rem !important;
+}
+
+.hamburger-icon {
+  background-image: url(/images/ikonka.png) !important;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.thumbnail img {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.thumbnail button {
+  margin: 0 !important;
+}
+
+.btn2 {
+  background-color: #31e300 !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  margin-left: 30px;
+  box-shadow: 8px 8px 24px -14px rgba(66, 68, 90, 1);
+}
+
+.btn2:hover {
+  color: #000000 !important;
+  background-color: #41e315 !important;
+}
+
+.card {
+  padding: 0 !important;
+  margin: 10px auto !important;
+}
+
+.break {
+  margin-top: 50px;
+  color: black;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+
+.brackets {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.brackets::before {
+  content: "[";
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.brackets::after {
+  content: "]";
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.brackets:hover::before {
+  opacity: 1;
+}
+
+.brackets:hover::after {
+  opacity: 1;
+}
+
+.albums h1 {
+  padding: 40px;
+}
+
+.darkmode {
+  color: rgb(186, 186, 186) !important;
+}

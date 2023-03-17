@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenCars - Wypożyczalnia samochodów elektrycznych</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" aria-label="Eighth navbar example">
+      <div class="container head">
+        <a class="navbar-brand brand" href="#"
+          ><span class="green">Green</span>Cars</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarPhone"
+          aria-controls="navbarPhone"
+          aria-expanded="false"
+          aria-label="Rozwijanie nawigacji"
+        >
+          <span class="navbar-toggler-icon hamburger-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-menu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Strona główna</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#samochody">Samochody</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeria</a>
+            </li>
+          </ul>
+          <button class="btn btn1">Zadzwoń +48 111 222 333</button>
+        </div>
+      </div>
+    </nav>
+
+    <div role="region" aria-label="Miniaturka czerwonej Tesli">
+      <div class="thumbnail">
+        <img src="/images/car.jpg" alt="Czerwona tesla" />
+        <div class="caption">
+          <h2>Poczuj emocje</h2>
+          <h3>text text tex text text</h3>
+          <p></p>
+          <button class="btn btn2">Wynajmij</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us" role="region" aria-label="O firmie">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="/images/car2.jpeg"
+              class="rounded-5 d-block mx-lg-auto img-fluid"
+              alt="Tesla car1"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">About our work</h1>
+            <p class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn2 btn-lg px-4 me-md-2">
+                text
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us2" role="region" aria-label="Opis firmy 2">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">About our work</h1>
+            <p class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn2 btn-lg px-4 me-md-2">
+                text
+              </button>
+            </div>
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="/images/car3.jpg"
+              class="rounded-5 d-block mx-lg-auto img-fluid"
+              alt="Tesla car2"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dark text-secondary px-4 py-5 text-center" role="banner">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4 darkmode">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn2 btn-lg px-4 me-sm-3 fw-bold">
+              Custom button
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="samochody"
+      class="container break"
+      role="region"
+      aria-label="Samochody - Dostępne samochody do wypożyczenia"
+    >
+      <h2 class="text-center">Samochody</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-12 card rounded-5 text-center">
+          <img
+            src="/images/cars/carCard.jpeg"
+            alt="Tesla 1"
+            class="rounded-5"
+          />
+          <h3>Tesla Model X</h3>
+        </div>
+        <div class="col-md-3 col-sm-12 card rounded-5 text-center">
+          <img
+            src="/images/cars/carCard2.webp"
+            alt="Tesla 2"
+            class="rounded-5"
+          />
+          <h4>Tesla Model S</h4>
+        </div>
+        <div class="col-md-3 col-sm-12 card rounded-5 text-center">
+          <img
+            src="/images/cars/carCard3.jpg"
+            alt="Tesla 3"
+            class="rounded-5"
+          />
+          <h4>Tesla Roadster</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-12 card rounded-5 text-center">
+          <img
+            src="/images/cars/carCard4.jpg"
+            alt="Tesla 4"
+            class="rounded-5"
+          />
+          <h4>Tesla Model S</h4>
+        </div>
+        <div class="col-md-3 col-sm-12 card rounded-5 text-center">
+          <img
+            src="/images/cars/carCard5.jpeg"
+            alt="Tesla 5"
+            class="rounded-5"
+          />
+          <h4>Tesla Model Y</h4>
+        </div>
+        <div class="col-md-3 col-sm-12 card rounded-5 text-center">
+          <img
+            src="/images/cars/carCard6.jpg"
+            alt="Tesla 6"
+            class="rounded-5"
+          />
+          <h4>Tesla Model 3</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+      >
+        <p class="col-md-4 mb-0">
+          &copy; 2023 <span class="green">Green</span>Cars
+        </p>
+
+        <ul class="nav col-md-8 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 brackets">Strona główna</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 brackets">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 brackets">Kontakt</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
