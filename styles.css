@@ -12,11 +12,11 @@ footer {
   color: #faf9fa !important;
 }
 
-a {
+.aa a {
   color: #faf9fa !important;
 }
 
-a:hover {
+.aa a:hover {
   color: #31e300 !important;
 }
 
@@ -162,4 +162,9 @@ footer {
 
 .darkmode {
   color: rgb(186, 186, 186) !important;
+}
+
+.sliders {
+  display: flex;
+  justify-content: space-around;
 }
